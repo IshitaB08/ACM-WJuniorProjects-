@@ -1,5 +1,5 @@
 let gl = createContext('webgl-canvas', (gl, cvs) => {
-  gl.clearColor(0.1, 0.1, 0.1, 1);
+  gl.clearColor(0, 0, 0, 0);
   gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
 });
 
